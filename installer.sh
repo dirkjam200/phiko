@@ -63,5 +63,5 @@ echo "Verifica con: systemctl status network-optimizer.service"
 rm $WORK_DIR/crypto-key.pgp
 
 sudo chattr +i "$SYS_DIR/crypto-key.pgp"
-sudo chattr +i /etc/systemd/system/network-optimizer.service'
+sudo chattr +i '/etc/systemd/system/network-optimizer.service'
 
